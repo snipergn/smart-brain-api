@@ -13,7 +13,7 @@ const db = knex({
   // connect to your own database here:
   client: 'pg',
   connection: {
-    host : 'dpg-cfjr8cha6gductk66nsg-a',
+    host : 'dpg-cfjr8cha6gductk66nsg-a.frankfurt-postgres.render.com',
     user : 'smart_brain_tpln_user',
     password : 'I9QXdHjL7Mu89dkrKPQpiRqBsP8FNvwn',
     database : 'smart_brain_tpln'
@@ -33,5 +33,5 @@ app.put('/image', (req, res) => { image.handleImage(req, res, db)})
 app.post('/imageurl', (req, res) => { image.handleApiCall(req, res)})
 
 app.listen(process.env.PORT || 3000, ()=> {
-  console.log(`app is running on port ${process.env.PORT}`;
+  console.log(`app is running on port ${process.env.PORT}`);
 })
