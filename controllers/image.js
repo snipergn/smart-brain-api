@@ -15,8 +15,8 @@ const handleApiCall = (req, res) => {
     // so you would change from:
     // .predict(Clarifai.FACE_DETECT_MODEL, req.body.input)
     // to:
-    // .predict('53e1df302c079b3db8a0a36033ed2d15', req.body.input)
-    .predict(Clarifai.FACE_DETECT_MODEL, req.body.input)
+    // .predict('6dc7e46bc9124c5c8824be4822abe105', req.body.input)
+    .predict('6dc7e46bc9124c5c8824be4822abe105', req.body.input)
     .then(data => {
       res.json(data);
     })
