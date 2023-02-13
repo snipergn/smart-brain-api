@@ -15,7 +15,7 @@ const db = knex({
     host : 'dpg-cfl3c85a49903fiub400-a.frankfurt-postgres.render.com',
     user : 'snipergn',
     password : '0AxJIRXqvrGwSAZWo1jLdQmcZJHuvdGX',
-    database : 'postgres://snipergn:0AxJIRXqvrGwSAZWo1jLdQmcZJHuvdGX@dpg-cfl3c85a49903fiub400-a.frankfurt-postgres.render.com/database_smart_brain',
+    database : 'postgres://snipergn:0AxJIRXqvrGwSAZWo1jLdQmcZJHuvdGX@dpg-cfl3c85a49903fiub400-a/database_smart_brain',
     ssl: true
   }
 });
