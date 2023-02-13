@@ -1,5 +1,4 @@
 const express = require('express');
-const bodyParser = require('body-parser'); // latest version of exressJS now comes with Body-Parser!
 const bcrypt = require('bcrypt-nodejs');
 const cors = require('cors');
 const knex = require('knex');
@@ -13,10 +12,10 @@ const db = knex({
   // connect to your own database here:
   client: 'pg',
   connection: {
-    host : 'dpg-cfjr8cha6gductk66nsg-a.frankfurt-postgres.render.com',
-    user : 'smart_brain_tpln_user',
-    password : 'I9QXdHjL7Mu89dkrKPQpiRqBsP8FNvwn',
-    database : 'smart_brain_tpln'
+    host : 'localhost',
+    user : 'postgres',
+    password : 'Andreiarmata123456789',
+    database : 'smart-brain'
   }
 });
 
