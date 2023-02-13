@@ -12,10 +12,11 @@ const db = knex({
   // connect to your own database here:
   client: 'pg',
   connection: {
-    host : 'localhost',
-    user : 'postgres',
-    password : 'Andreiarmata123456789',
-    database : 'smart-brain'
+    host : 'dpg-cfl3c85a49903fiub400-a.frankfurt-postgres.render.com',
+    user : 'snipergn',
+    password : '0AxJIRXqvrGwSAZWo1jLdQmcZJHuvdGX',
+    database : 'postgres://snipergn:0AxJIRXqvrGwSAZWo1jLdQmcZJHuvdGX@dpg-cfl3c85a49903fiub400-a.frankfurt-postgres.render.com/database_smart_brain',
+    ssl: true
   }
 });
 
