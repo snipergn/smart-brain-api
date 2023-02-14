@@ -21,7 +21,7 @@ const handleApiCall = (req, res) => {
       {
         id: 'face-detection',
         name: 'face-detection',
-        version: '6dc7e46bc9124c5c8824be4822abe105',
+        version: '45fb9a671625463fa646c3523a3087d5',
         type: 'visual-detector',
       }, req.body.input)
     .then(data => {
